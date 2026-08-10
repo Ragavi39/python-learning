@@ -1,2 +1,2 @@
 print("hello,Github!")
-printf("I am learning python.")
+print("I am learning python.")
