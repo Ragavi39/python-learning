@@ -5,9 +5,22 @@ python = float(input("Enter Python marks: "))
 english = float(input("Enter English marks: "))
 
 total = maths + python + english
-average = total / 3
+percentage = total / 3
 
 print("\n--- Student Result ---")
 print("Name:", name)
 print("Total:", total)
-print("Average:", average)
+print("Percentage:", percentage, "%")
+
+if percentage >= 90:
+    print("Grade: A+")
+elif percentage >= 80:
+    print("Grade: A")
+elif percentage >= 70:
+    print("Grade: B")
+elif percentage >= 60:
+    print("Grade: C")
+elif percentage >= 50:
+    print("Grade: D")
+else:
+    print("Grade: F")
